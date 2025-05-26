@@ -37,11 +37,11 @@ void pickNewState() {
 
   int roll = random(100); // 0–99
 
-  if (roll < 40) {
+  if (roll < 35) {
     setState(GREEN);
-  } else if (roll < 80) {
+  } else if (roll < 65) {
     setState(RED);
-  } else if (roll < 95) {
+  } else if (roll < 80) {
     setState(YELLOW);
   } else {
     setState(PURPLE);
